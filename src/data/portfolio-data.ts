@@ -1,0 +1,15 @@
+export const navLinks = [
+  { id: 'experiencia', label: 'Experiencia' },
+  { id: 'proyectos', label: 'Proyectos' },
+  { id: 'sobre-mi', label: 'Sobre mí' },
+] as const
+
+export const profile = {
+  name: 'Francisco Javier',
+  role: 'Frontend Developer',
+  location: 'Córdoba, España',
+  photo: '/images/profile_photo.png',
+  github: 'https://github.com/FcoJavierGlez',
+  linkedin: 'https://www.linkedin.com/in/francisco-javier-gonz%C3%A1lez-sabariego-51052a175/',
+  email: 'FJGS_86@hotmail.com',
+}
