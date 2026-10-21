@@ -1,5 +1,7 @@
 import type { Project } from "@/interfaces/project.interface";
 
+const URL = import.meta.env.BASE_URL;
+
 export const projects: Project[] = [
   {
     title: 'E-commerce - Amazon like',
@@ -7,7 +9,13 @@ export const projects: Project[] = [
     description:
       `Tienda online inspirada en Amazon con carrito persistente, búsqueda de productos por etiquetas o nombre, 
       sugerencia de productos similares, uso de token para enrutamientos seguros, etc.`,
-    image: `${import.meta.env.BASE_URL}/images/projects/project-amazon-like-angular.png`,
+    images: [
+      `${URL}/images/projects/amazona/book_1.png`,
+      `${URL}/images/projects/amazona/game_1.png`,
+      `${URL}/images/projects/amazona/cart_1.png`,
+      `${URL}/images/projects/amazona/shopping_cart_1.png`,
+      `${URL}/images/projects/amazona/pay_1.png`,
+    ],
     tech: ['Angular 12', 'Angular Material', 'TypeScript', 'Bootstrap 5'],
     links: {
       github: 'https://github.com/FcoJavierGlez/tienda-online',

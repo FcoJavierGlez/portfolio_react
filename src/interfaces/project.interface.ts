@@ -2,7 +2,7 @@ export type Project = {
   title: string;
   kind: ProjectKind;
   description: string;
-  image: string;
+  images: string[];
   tech: string[];
   links: {
     github?: string;

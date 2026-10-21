@@ -5,6 +5,7 @@ import { SectionTitle } from './section-title';
 import type { Project } from '@/interfaces/project.interface';
 import { cn } from 'cn';
 import { TechLabel } from './tech-label';
+import { ProjectCarousel } from './project-carousel';
 
 const linkClass =
   'inline-flex items-center gap-2 rounded-full border border-border bg-background px-3.5 py-1.5 text-sm font-medium text-foreground transition-colors hover:border-primary/50 hover:bg-muted focus-visible:outline-2 focus-visible:outline-ring hover:text-primary'
@@ -15,12 +16,16 @@ function ProjectCard({ project }: { project: Project }) {
   return (
     <article className="group grid overflow-hidden rounded-2xl border border-border bg-card md:grid-cols-2 cursor-pointer">
       <div className="relative aspect-video overflow-hidden bg-muted md:aspect-auto md:min-h-72">
-        <img
+        {/* <img
           src={project.image}
           alt={`Captura del proyecto ${project.title}`}
           loading="lazy"
           decoding="async"
           className="absolute inset-0 size-full object-cover transition-transform duration-500 group-hover:scale-105 motion-reduce:transition-none"
+        /> */}
+        <ProjectCarousel
+          images={project.images}
+          title={project.title}
         />
       </div>
 
