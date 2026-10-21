@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description:
       `Tienda online inspirada en Amazon con carrito persistente, búsqueda de productos por etiquetas o nombre, 
       sugerencia de productos similares, uso de token para enrutamientos seguros, etc.`,
-    image: '/images/projects/project-amazon-like-angular.png',
+    image: `${import.meta.env.BASE_URL}/images/projects/project-amazon-like-angular.png`,
     tech: ['Angular 12', 'Angular Material', 'TypeScript', 'Bootstrap 5'],
     links: {
       github: 'https://github.com/FcoJavierGlez/tienda-online',
