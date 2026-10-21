@@ -1,6 +1,6 @@
 import { ExternalLink, FolderCode } from 'lucide-react';
 import { projects } from '@/data/projects-data';
-import { GitHubIcon, YouTubeIcon, TailwindIcon, AngularIcon } from './brand-icons';
+import { GitHubIcon, YouTubeIcon } from './brand-icons';
 import { SectionTitle } from './section-title';
 import type { Project } from '@/interfaces/project.interface';
 import { cn } from 'cn';
