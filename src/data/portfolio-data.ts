@@ -13,5 +13,5 @@ export const profile = {
   photo: `${URL}/images/profile_photo.png`,
   github: 'https://github.com/FcoJavierGlez',
   linkedin: 'https://www.linkedin.com/in/francisco-javier-gonz%C3%A1lez-sabariego-51052a175/',
-  email: 'FJGS_86@hotmail.com',
+  email: 'franciscojavier.developer@gmail.com',
 }
